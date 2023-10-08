@@ -45,3 +45,4 @@ This repository contains a test automation framework built using Ruby and RSpec 
 * Please check the following links regarding the adopted ruby convention:
   - https://clearwater.readthedocs.io/en/stable/Clearwater_Ruby_Coding_Guidelines.html
   - https://ruby-software.com/coding-conventions-and-styles-in-ruby/
+  - https://docs.rubocop.org/rubocop/index.html
