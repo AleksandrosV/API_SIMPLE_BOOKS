@@ -7,7 +7,7 @@ require_relative '../shared_context/api_spec_helper'
 RSpec.describe 'Update an Order' do
   it 'Verifies that an order can be updated' do
     updated_customer_name = Faker::Name.name
-    order_id_to_update = "MIt4lCC9XQUr9s5AK7ofZ"
+    order_id_to_update = "cR62OQRg7_q3dwXwYt2Cm"
 
     request_body = {
       "customerName": updated_customer_name

@@ -12,7 +12,7 @@ RSpec.describe 'List Of Orders' do
   end
 
   it 'Verifies that the API returns detailed information about a single order' do
-    orderId = "MIt4lCC9XQUr9s5AK7ofZ"
+    orderId = "cR62OQRg7_q3dwXwYt2Cm"
     @api.get("orders/#{orderId}")
     expect(@api.status).to eq(ApiSpecHelper::VALID_RESPONSE_CODE)
     expect(@api.code).to eq(ApiSpecHelper::VALID_RESPONSE_CODE)
