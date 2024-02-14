@@ -4,6 +4,7 @@ source "https://rubygems.org"
 
 gem 'client-api'
 gem 'faker'
+gem 'json-schema'
 gem 'rake'
 gem 'rspec'
 gem 'rspec-core'

@@ -1,6 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.8.6)
+      public_suffix (>= 2.0.2, < 6.0)
     ast (2.4.2)
     base64 (0.1.1)
     client-api (0.1.4)
@@ -11,11 +13,14 @@ GEM
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     json (2.6.3)
+    json-schema (4.1.1)
+      addressable (>= 2.8)
     language_server-protocol (3.17.0.3)
     parallel (1.23.0)
     parser (3.2.2.4)
       ast (~> 2.4.1)
       racc
+    public_suffix (5.0.4)
     racc (1.7.1)
     rainbow (3.1.1)
     rake (13.0.6)
@@ -71,6 +76,7 @@ PLATFORMS
 DEPENDENCIES
   client-api
   faker
+  json-schema
   rake
   rspec
   rspec-core
